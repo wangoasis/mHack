@@ -12,6 +12,7 @@
 		1777EA021E865A620038B03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1777EA001E865A620038B03B /* Main.storyboard */; };
 		1777EA041E865A620038B03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1777EA031E865A620038B03B /* Assets.xcassets */; };
 		1777EA071E865A620038B03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1777EA051E865A620038B03B /* LaunchScreen.storyboard */; };
+		1777EA131E8687D20038B03B /* example.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1777EA121E8687D20038B03B /* example.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1777EA031E865A620038B03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1777EA061E865A620038B03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1777EA081E865A620038B03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1777EA121E8687D20038B03B /* example.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = example.JPG; path = "../../Pictures/Photos Library.photoslibrary/Masters/2017/03/05/20170305-015647/example.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		1777E9F01E865A620038B03B = {
 			isa = PBXGroup;
 			children = (
+				1777EA121E8687D20038B03B /* example.JPG */,
 				1777E9FB1E865A620038B03B /* Hack */,
 				1777E9FA1E865A620038B03B /* Products */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					1777E9F81E865A620038B03B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6B78494SDT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +129,7 @@
 			files = (
 				1777EA071E865A620038B03B /* LaunchScreen.storyboard in Resources */,
 				1777EA041E865A620038B03B /* Assets.xcassets in Resources */,
+				1777EA131E8687D20038B03B /* example.JPG in Resources */,
 				1777EA021E865A620038B03B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6B78494SDT;
 				INFOPLIST_FILE = Hack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Qing.Hack;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6B78494SDT;
 				INFOPLIST_FILE = Hack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Qing.Hack;
